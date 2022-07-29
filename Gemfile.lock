@@ -11,6 +11,7 @@ GEM
     benchmark-memory (0.2.0)
       memory_profiler (~> 1)
     diff-lcs (1.5.0)
+    erubi (1.10.0)
     memory_profiler (1.0.0)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
@@ -40,6 +41,7 @@ PLATFORMS
 DEPENDENCIES
   benchmark-ips (~> 2.10.0)
   benchmark-memory
+  erubi
   phlex!
   rake (~> 13.0)
   rspec
